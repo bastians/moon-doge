@@ -66,6 +66,11 @@ Run in terminal :
 
 ![Capture du 2021-04-01 14-21-08](https://user-images.githubusercontent.com/72351273/113293015-8753f000-92f5-11eb-836b-b01451628288.png)
 
+## Codestyle
+
+The codestyle is enforced by [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer).  
+To check the code [Composer](https://getcomposer.org/) has to be installed. Afterwards all dependencies have to be installed by running `composer install` on the command line. Now the codestyle can be checked by running `composer cs`.
+
 
 ## Updates
 
