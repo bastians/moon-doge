@@ -8,3 +8,5 @@ define('TWITTER_API_KEY', ''); // twitter API Key
 define('TWITTER_SECRET', ''); // twitter API Key secret
 define('TARGET', '5'); /// set target in percent 
 define('AMOUNT', '6'); /// set the amount USDT (if empty it will take the available funds) - minimal order is 6 USDT
+define('LEVERAGE', '5'); /// set leverage -- empty = no leverage
+define('MARGIN_TYPE', 'ISOLATED'); /// ISOLATED or CROSSED
