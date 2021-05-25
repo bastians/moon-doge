@@ -278,11 +278,11 @@ function doge_to_the_moon(){
 	//just in case ...
 	if(AMOUNT == ''){
 		//from available balance 
-		$qtt = $usdt_balance / ($lastPrice+0.01); 
+		$qtt = ($usdt_balance * LEVERAGE) / ($lastPrice+0.01); 
 		echo 'creating market order for '.$usdt_balance.' USDT : ' . $qtt . " DOGE\n";
 	}else{
 		//from AMOUNT
-		$qtt = AMOUNT / ($lastPrice+0.01); 
+		$qtt = (AMOUNT * LEVERAGE) / ($lastPrice+0.01); 
 		echo 'creating market order for '.AMOUNT.' USDT : ' . $qtt . " DOGE\n";
 	}
 
